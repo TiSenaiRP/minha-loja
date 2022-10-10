@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'apple regular' ;
+    src: url('SFPRODISPLAYREGULAR.OTF');
+}
+@font-face {
+    font-family:'apple medium' ;
+    src: url('SFPRODISPLAYMEDIUM.OTF');
+}
+header{
+    background: #484848;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+header2 {
+    background: #000000;
+}
+.caixa2{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position:absolute;
+    top: 110px;
+    right: 0;
+}
+nav2{
+    position:absolute;
+    top: 110px;
+    right: 0;
+}
+nav li{
+    font-family:'apple regular';
+    display: inline;
+    font-size: 20px;
+    margin: 0 0 0 30px;
+    color: rgb(213,213,213);  
+}
+nav li:hover{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+.produtos{
+    width:940px;
+    margin: 0 auto;
+    padding: 145px 0;
+}
+.produtos li{
+    display:inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 2px solid #484848;
+    border-radius: 10px;
+}
+.produtos2{
+    width:940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.produtos2 li{
+    display:inline-block;
+    text-align: center;
+    width:46%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 2px solid #484848;
+    border-radius: 10px;
+}
+.p1{
+    font-family: 'apple medium';
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.p2{
+    font-family: 'apple regular';
+    font-size: 18px;
+    color: #06c
+}
+
+
+.produtos li:hover{
+    border-color: #06c;
+}
+.produtos li:hover .p1{
+    font-size: 30px;
+}
+
+
+footer{
+    font-family: 'apple regular';
+    text-align: center;
+    background: #484848;
+    padding: 30px 0;
+}
+.copyright{
+    color:rgb(213, 213, 213);
+    font-size:20px;
+    margin-top: 10px;
+}
